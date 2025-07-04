@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: cornsilk;
+    height: 100vh;
+
+    & div.container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & form {
+            background-color: #000000dd;
+            border: none;
+            border-radius: 10px;
+            padding: 30px;
+            color: #fff;
+
+            & input.inputForm {
+                margin: 5px;
+                padding: 7px;
+            }
+            
+            & input.inputFormCadastro {
+                width: 250px;
+                margin: 5px;
+                padding: 7px;
+            }
+
+            & p.buttons {
+                margin: 5px;
+                width: 95%;
+                display: flex;
+                justify-content: space-between;
+
+                & input {
+                    padding: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
