@@ -35,14 +35,15 @@ body {
             }
 
             & p.buttons {
-                margin: 5px;
-                width: 95%;
+                margin-top: 20px;
+                width: 100%;
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
 
                 & input {
                     padding: 5px;
                     cursor: pointer;
+                    width: 90%;
                 }
             }
         }
